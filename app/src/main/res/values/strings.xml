@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CurreX</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="exchange_rates">Exchange Rates</string>
+    <string name="converter">Converter</string>
+</resources>
