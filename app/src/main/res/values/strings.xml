@@ -4,4 +4,7 @@
     <string name="settings">Settings</string>
     <string name="exchange_rates">Exchange Rates</string>
     <string name="converter">Converter</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="amount">Amount</string>
 </resources>
