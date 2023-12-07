@@ -24,13 +24,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
 
-//        CoroutineScope(Dispatchers.IO).launch {
-//            val response = RetrofitInstance.api.getAllRatesBaseUSD(apiKey = "Bearer $API_KEY")
-//            Log.e("Main Activity", "Reponse--->$response")
-//        }
-
-        val response = RetrofitInstance.api.getAllRatesBaseUSD(apiKey = "Bearer $API_KEY")
-        Log.e("Main Activity", "Reponse--->$response")
+        CoroutineScope(Dispatchers.IO).launch {
+            val response = RetrofitInstance.api.getAllRatesBaseUSD(apiKey = "Bearer $API_KEY")
+            Log.e("Main Activity", "Reponse--->$response")
+        }
     }
 
 //    override fun onCreateOptionsMenu(menu: Menu?): Boolean {

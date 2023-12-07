@@ -10,7 +10,7 @@ data class RatesResponse(
 //    @PrimaryKey(autoGenerate = true)
 //    val id: Int? = null,
     val base_code: String,
-    val conversion_rates: ConversionRates,
+    val conversion_rates: Map<String, Double>,
     val documentation: String,
     val result: String,
     val terms_of_use: String,

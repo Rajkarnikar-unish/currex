@@ -9,7 +9,7 @@ import retrofit2.http.Headers
 
 interface ExchangeAPI {
     @GET("latest/USD")
-    fun getAllRatesBaseUSD(
+    suspend fun getAllRatesBaseUSD(
         @Header("Authorization") apiKey: String
     ) : Response<RatesResponse>
 }
