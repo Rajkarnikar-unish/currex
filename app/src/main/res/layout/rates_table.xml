@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1">
+    
+    <TableRow>
+        <TextView
+            android:text="@string/currency_code"
+            android:padding="3dip"
+            android:gravity="center"
+            android:textSize="18sp"/>
+        
+        <TextView
+            android:text="@string/exchange_rates_header"
+            android:padding="3dip"
+            android:gravity="center"
+            android:textSize="18sp"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="@string/currency_code"
+            android:padding="3dip"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:text="@string/exchange_rates_header"
+            android:padding="3dip"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </TableRow>
+    
+    
+    
+
+</TableLayout>

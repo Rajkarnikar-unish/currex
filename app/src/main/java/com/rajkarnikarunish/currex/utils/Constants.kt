@@ -1,4 +1,4 @@
-package com.rajkarnikarunish.currex
+package com.rajkarnikarunish.currex.utils
 
 class Constants {
 
